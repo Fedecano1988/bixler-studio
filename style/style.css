@@ -452,6 +452,27 @@ footer ul li {
     margin: auto;
   }
 
+  /* FORMULARIO */
+
+}
+
+.inputform {
+  width: 300px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.form-label {
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  margin-top: 40px;
+}
+
+.form-select {
+  width: 300px;
+}
+
   /* FOOTER */
 
   .mapa {
