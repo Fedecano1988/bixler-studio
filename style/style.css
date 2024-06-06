@@ -1,30 +1,27 @@
+/* VARIABLES */
 @font-face {
   font-family: "roboto-bold";
   src: url("../roboto/Roboto-Bold.ttf");
 }
-
 @font-face {
   font-family: "roboto-regular";
   src: url("../roboto/Roboto-Regular.ttf");
 }
-
 @font-face {
   font-family: "anteb-medium";
   src: url("../anteb/Anteb-Medium.ttf");
 }
-
 * {
   margin: 0px;
   padding: 0px;
 }
 
 /* HEADER */
-
 header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: rgba(98.04%, 98.43%, 99.22%, 0.9);
+  background-color: rgba(250, 251, 253, 0.9);
   margin: 1px;
   position: sticky;
   top: 0;
@@ -33,22 +30,18 @@ header {
 
 .nav-link:hover {
   background-color: #b22222;
-  color: rgba(98.04%, 98.43%, 99.22%);
+  color: rgb(250, 251, 253);
 }
 
 .navbar-brand:hover {
   background-color: #b22222;
-  color: rgba(98.04%, 98.43%, 99.22%);
+  color: rgb(250, 251, 253);
 }
 
-
-
 /* BODY */
-
 body {
   background-image: url(../image/background.jpg);
 }
-
 
 /* TITULOS / SUBTITULOS / PARRAFOS / A */
 h1 {
@@ -90,7 +83,6 @@ a {
 }
 
 /* H3 subtitulos (TARIFAS,TURNOS,GALERIA,ETC) */
-
 #referencia {
   color: #b22222;
   font-size: 30px;
@@ -99,7 +91,7 @@ a {
 }
 
 .titulos {
-  background-color: rgba(98.04%, 98.43%, 99.22%, 0.6);
+  background-color: rgba(250, 251, 253, 0.6);
   border: 2px solid #b22222;
   border-radius: 5px;
   text-align: center;
@@ -109,7 +101,7 @@ a {
 }
 
 .subtitulo {
-  background-color: rgba(98.04%, 98.43%, 99.22%, 0.6);
+  background-color: rgba(250, 251, 253, 0.6);
   border: 2px solid #b22222;
   border-radius: 5px;
   text-align: center;
@@ -118,7 +110,7 @@ a {
 }
 
 .subtitulo2 {
-  background-color: rgba(98.04%, 98.43%, 99.22%, 0.6);
+  background-color: rgba(250, 251, 253, 0.6);
   border: 2px solid #b22222;
   border-radius: 5px;
   text-align: center;
@@ -129,7 +121,6 @@ a {
 }
 
 /* FOTO CAROUSEL */
-
 .punas {
   margin: auto;
   color: whitesmoke;
@@ -146,7 +137,6 @@ h5 {
 }
 
 /* INDEX OFRECEMOS SERVICOS */
-
 #ofrecemos {
   display: grid;
   grid-template-columns: auto auto auto;
@@ -155,7 +145,7 @@ h5 {
 
 .box-ofrecemos {
   border: 2px solid #b22222;
-  background-color: rgba(98.04%, 98.43%, 99.22%, 0.6);
+  background-color: rgba(250, 251, 253, 0.6);
   color: #b22222;
   font-size: 15px;
   font-family: "roboto-regular";
@@ -189,7 +179,6 @@ h5 {
 }
 
 /* TARIFAS */
-
 #valores {
   display: flex;
   justify-content: space-between;
@@ -203,7 +192,7 @@ h5 {
   border: 2px solid #b22222;
   padding: 40px;
   border-radius: 10px;
-  background-color: rgba(98.04%, 98.43%, 99.22%, 0.6);
+  background-color: rgba(250, 251, 253, 0.6);
 }
 
 .itembox {
@@ -231,7 +220,6 @@ h5 {
 }
 
 /* TURNOS */
-
 .pturnos {
   text-align: center;
   color: black;
@@ -245,7 +233,7 @@ h5 {
   flex-direction: column;
   align-items: center;
   font-family: "roboto-bold";
-  background-color: rgba(98.04%, 98.43%, 99.22%, 0.6);
+  background-color: rgba(250, 251, 253, 0.6);
 }
 
 .form-select {
@@ -256,7 +244,6 @@ h5 {
 }
 
 /* GALERIA */
-
 .galeria {
   display: grid;
   grid-template-columns: auto auto auto;
@@ -264,14 +251,14 @@ h5 {
   justify-content: center;
   row-gap: 10px;
   column-gap: 10px;
-  background-color: rgba(98.04%, 98.43%, 99.22%, 0.6);
+  background-color: rgba(250, 251, 253, 0.6);
 }
 
 .imagenesprueba1 {
   border: 3px solid whitesmoke;
   border-radius: 5px;
   padding: 10px;
-  background-color: rgba(69.8%, 13.33%, 13.33%, 0.1);
+  background-color: rgba(178, 34, 34, 0.1);
 }
 
 .pgaleria {
@@ -283,7 +270,6 @@ h5 {
 }
 
 /* NOSOTROS */
-
 .pnosotros {
   display: block;
   text-align: center;
@@ -294,16 +280,14 @@ h5 {
 }
 
 /* CONTACTO */
-
 #formulario {
   display: flex;
   flex-direction: column;
   align-items: center;
   font-family: "roboto-bold";
-  background-color: rgba(98.04%, 98.43%, 99.22%, 0.6);
+  background-color: rgba(250, 251, 253, 0.6);
   padding: 60px;
   margin: 20px;
-  
 }
 
 .inputform {
@@ -325,24 +309,19 @@ h5 {
 
 .btn:hover {
   background-color: #b22222;
-  color: rgba(98.04%, 98.43%, 99.22%);
+  color: rgb(250, 251, 253);
 }
 
-
-
-
 /* FOOTER */
-
 footer {
   display: flex;
   justify-content: space-between;
   margin-top: 50px;
-  background-color: rgba(98.04%, 98.43%, 99.22%, 0.5);
+  background-color: rgba(250, 251, 253, 0.5);
 }
-
 footer ul li {
   list-style-type: none;
-  background-color: rgba(98.04%, 98.43%, 99.22%, 0.5);
+  background-color: rgba(250, 251, 253, 0.5);
   margin-left: 10px;
   margin-bottom: 10px;
   margin-top: 10px;
@@ -378,107 +357,72 @@ footer ul li {
 }
 
 .pfooter:hover {
-  color: rgba(98.04%, 98.43%, 99.22%);
+  color: rgb(250, 251, 253);
 }
 
-
 /* MEDIA MEDIA MEDIA */
 /* MEDIA MEDIA MEDIA */
-
 @media (max-width: 768px) {
-
   /* HEADER */
-
-  header {
-    display: flex;
-  }
-
   h1 {
     display: none;
   }
-
   .navbar-collapse {
-    background-color: rgba(98.04%, 98.43%, 99.22%, 0.9);
+    background-color: rgba(250, 251, 253, 0.9);
   }
-
   .navbar-expand-sm {
     height: 50px;
   }
-
   /* CAROUSEL */
-
   .carousel-item {
     margin-top: 50px;
   }
-
   /* INDEX OFRECEMOS SERVICOS */
-
   #ofrecemos {
-    display: grid;
     grid-template-columns: 1fr;
-    justify-content: center;
   }
-
   /* TARIFAS */
-
   .itembox {
     font-size: 15px;
   }
-
   .pricebox {
     font-size: 15px;
   }
-
   .producto {
     display: flex;
-    width: 250px;
     align-content: start;
-    margin-bottom: 10px;
     margin-right: 80px;
   }
-
   /* CONTACTOS */
-
-  #formulario {
-    display: flex;
-    flex-direction: column;
-  }
-
   #input {
     margin: auto;
   }
-
   .enviaconsulta {
     margin: auto;
   }
-
   /* FORMULARIO */
-
-.inputform {
-  width: 300px;
-  border-radius: 5px;
-  padding: 5px;
-}
-
-.form-label {
-  display: flex;
-  justify-content: center;
-  width: 300px;
-  margin-top: 40px;
-}
-
-.form-select {
-  width: 300px;
-}
-
+  .inputform {
+    width: 300px;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  .form-label {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    margin-top: 40px;
+  }
+  .form-select {
+    width: 300px;
+  }
   /* FOOTER */
-
   .mapa {
     width: 150px;
     height: 150px;
   }
-
   .galeria {
     grid-template-columns: auto;
   }
 }
+
+/*# sourceMappingURL=style.css.map */
