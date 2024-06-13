@@ -1,0 +1,22 @@
+/* HEADER */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: $color-background-nav;
+    margin: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+
+.nav-link:hover {
+    background-color: $color-red;
+    color: rgba(98.04%, 98.43%, 99.22%);
+}
+
+.navbar-brand:hover {
+    background-color: $color-red;
+    color: rgba(98.04%, 98.43%, 99.22%);
+}
