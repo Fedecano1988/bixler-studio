@@ -105,12 +105,12 @@ a {
 
 #ofrecemos {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto;
     justify-content: center;
 }
 
 .box-ofrecemos {
-    border: 2px solid $color-red;
+    border: 2px double $color-red;
     border-radius: 5px;
     background-color: $color-background;
     color: $color-red;
@@ -119,7 +119,7 @@ a {
     text-align: center;
     padding: 2%;
     margin: 10px;
-    width: 400px;
+    width: 1200px;
 }
 
 .disenosimg {

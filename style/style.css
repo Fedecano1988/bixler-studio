@@ -140,12 +140,12 @@ a {
 /* INDEX OFRECEMOS SERVICOS */
 #ofrecemos {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto;
   justify-content: center;
 }
 
 .box-ofrecemos {
-  border: 2px solid #b22222;
+  border: 2px double #b22222;
   border-radius: 5px;
   background-color: rgba(250, 251, 253, 0.6);
   color: #b22222;
@@ -154,7 +154,7 @@ a {
   text-align: center;
   padding: 2%;
   margin: 10px;
-  width: 400px;
+  width: 1200px;
 }
 
 .disenosimg {
@@ -319,6 +319,11 @@ a {
   margin-top: 40px;
 }
 
+.boton {
+  display: flex;
+  justify-content: center;
+}
+
 .btn {
   margin-top: 20px;
 }
@@ -378,6 +383,11 @@ footer :hover {
   color: rgb(250, 251, 253);
 }
 
+.copyright {
+  display: flex;
+  justify-content: center;
+}
+
 /* MEDIA MEDIA MEDIA */
 /* MEDIA MEDIA MEDIA */
 @media (max-width: 768px) {
@@ -396,8 +406,8 @@ footer :hover {
     margin-top: 50px;
   }
   /* INDEX OFRECEMOS SERVICOS */
-  #ofrecemos {
-    grid-template-columns: 1fr;
+  .box-ofrecemos {
+    width: 350px;
   }
   /* TARIFAS */
   .itembox {
