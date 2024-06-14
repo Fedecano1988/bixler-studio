@@ -67,6 +67,7 @@ h4 {
 
 .pindex {
   display: block;
+  font-weight: bold;
   text-align: center;
   color: black;
   font-family: "roboto-regular";
@@ -145,6 +146,7 @@ a {
 
 .box-ofrecemos {
   border: 2px solid #b22222;
+  border-radius: 5px;
   background-color: rgba(250, 251, 253, 0.6);
   color: #b22222;
   font-size: 15px;
@@ -174,6 +176,8 @@ a {
 }
 
 .parrafoindex {
+  margin-top: 10px;
+  font-size: 15px;
   color: black;
   font-size: 15px;
   font-family: "roboto-regular";
@@ -271,6 +275,11 @@ a {
 }
 
 /* NOSOTROS */
+.titulonosotros {
+  color: #b22222;
+  font-weight: bold;
+}
+
 .pnosotros {
   display: block;
   text-align: center;
@@ -327,6 +336,9 @@ footer ul li {
   margin-bottom: 10px;
   margin-top: 10px;
   padding: 1px;
+}
+footer :hover {
+  color: whitesmoke;
 }
 
 .mapa {
