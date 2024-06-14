@@ -13,7 +13,7 @@ h1 {
     text-align: center;
     color: $color-red;
     font-size: map-get($tamanio-fuente, titulo );
-    font-family: "roboto-bold";
+    font-family: "marck";
     margin: auto;
     margin-bottom: 15px;
 }
@@ -58,9 +58,6 @@ a {
 }
 
 .titulos {
-    background-color: $color-background;
-    border: 2px solid $color-red;
-    border-radius: 5px;
     text-align: center;
     width: 500px;
     height: 60px;
@@ -69,7 +66,6 @@ a {
 
 .subtitulo {
     background-color: $color-background;
-    border: 2px solid $color-red;
     border-radius: 5px;
     text-align: center;
     height: 40px;

@@ -8,6 +8,10 @@
   src: url("../roboto/Roboto-Regular.ttf");
 }
 @font-face {
+  font-family: "marck";
+  src: url("../roboto/MarckScript-Regular.ttf");
+}
+@font-face {
   font-family: "anteb-medium";
   src: url("../anteb/Anteb-Medium.ttf");
 }
@@ -47,8 +51,8 @@ body {
 h1 {
   text-align: center;
   color: #b22222;
-  font-size: 50px;
-  font-family: "roboto-bold";
+  font-size: 60px;
+  font-family: "marck";
   margin: auto;
   margin-bottom: 15px;
 }
@@ -92,9 +96,6 @@ a {
 }
 
 .titulos {
-  background-color: rgba(250, 251, 253, 0.6);
-  border: 2px solid #b22222;
-  border-radius: 5px;
   text-align: center;
   width: 500px;
   height: 60px;
@@ -103,7 +104,6 @@ a {
 
 .subtitulo {
   background-color: rgba(250, 251, 253, 0.6);
-  border: 2px solid #b22222;
   border-radius: 5px;
   text-align: center;
   height: 40px;
@@ -230,7 +230,7 @@ a {
   color: black;
   font-family: "roboto-regular";
   font-size: 20px;
-  margin: 1%;
+  margin: 10px;
 }
 
 #formularioturnos {
@@ -245,7 +245,13 @@ a {
   align-items: center;
   font-family: "roboto-bold";
   width: 400px;
-  margin-top: 20px;
+  margin-top: 10px;
+}
+
+.calendario {
+  align-items: center;
+  font-family: "roboto-bold";
+  margin-top: 10px;
 }
 
 /* GALERIA */
