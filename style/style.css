@@ -327,7 +327,6 @@ a {
 .btn {
   margin-top: 20px;
 }
-
 .btn:hover {
   background-color: #b22222;
   color: rgb(250, 251, 253);
@@ -379,7 +378,7 @@ footer :hover {
   margin-bottom: 1px;
   width: 100px;
 }
-.pfooter :hover {
+.pfooter:hover {
   color: rgb(250, 251, 253);
 }
 

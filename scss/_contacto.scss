@@ -31,9 +31,10 @@
 .btn {
     margin-top: 20px;
 
-}
 
-.btn:hover {
+
+ &:hover {
     background-color: $color-red;
     color: rgba(98.04%, 98.43%, 99.22%); 
+}
 }
