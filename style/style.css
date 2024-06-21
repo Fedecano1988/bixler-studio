@@ -347,7 +347,7 @@ footer ul li {
   margin-top: 10px;
   padding: 1px;
 }
-footer :hover {
+footer:hover {
   color: whitesmoke;
 }
 
