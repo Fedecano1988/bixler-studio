@@ -25,6 +25,7 @@ footer {
     height: 305px;
     border: 2px solid $color-red;
     justify-content: center;
+    margin-right: 30px;
 }
 
 .nav-link {
@@ -50,6 +51,15 @@ footer {
 &:hover {
     color: rgba(98.04%, 98.43%, 99.22%);
 }
+}
+
+.whatsappfooter {
+    display: flex;
+    justify-content: right;
+    position: sticky;
+    bottom: 40px;
+    margin-right: 20px;
+    
 }
 
 .copyright {

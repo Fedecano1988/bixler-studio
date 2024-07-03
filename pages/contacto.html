@@ -64,35 +64,39 @@
       <div class="container">
         <div class="object-fit-cover border rounded">
           <section id="formulario">
-            <form action="../form.php" method="post"></form>
+            <form action="form.php" method="post">
             <div class="inputform">
-              <input class="form-control form-control-lg" type="text" placeholder="Nombre" aria-label="Nombre">
-            </div>
-            <div class="inputform">
-              <input class="form-control form-control-lg" type="text" placeholder="Apellido" aria-label="Apellido">
-            </div>
-            <div class="inputform">
-              <input class="form-control form-control-lg" type="text" placeholder="Telefono" aria-label="Telefono">
-            </div>
-            <div class="inputform">
-              <input class="form-control form-control-lg" type="text" placeholder="Email" aria-label="Email">
-            </div>
+              <input class="form-control form-control-lg" type="text" name="nombre" placeholder="Nombre" aria-label="Nombre" required>
+          </div>
+          <div class="inputform">
+              <input class="form-control form-control-lg" type="text" name="apellido" placeholder="Apellido" aria-label="Apellido" required>
+          </div>
+          <div class="inputform">
+              <input class="form-control form-control-lg" type="text" name="telefono" placeholder="Teléfono" aria-label="Teléfono" required>
+          </div>
+          <div class="inputform">
+              <input class="form-control form-control-lg" type="email" name="email" placeholder="Email" aria-label="Email" required>
+          </div>
             <!-- TEXTAREA -->
             <div class="mb-3">
               <label for="exampleFormControlTextarea1" class="form-label">Envíanos tu consulta</label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
-              <div class="boton">
-                <button class="btn btn-outline-secondary" type="button" id="inputGroupFileAddon04">Enviar</button>
+              <textarea class="form-control" id="exampleFormControlTextarea1" name="consulta" rows="6" required></textarea>
+          </div>
+          <div class="boton">
+              <button class="btn btn-outline-secondary" type="submit" id="inputGroupFileAddon04">Enviar</button>
               </div>
             </div>
         </div>
       </div>
+    </form>
       </section>
     </div>
+    <a class="whatsappfooter" href="https://wa.me/+528116298705">
+      <img src="../image/whatsapp-icon.png" alt="Logo de Whatsapp" width="80" height="80">
+    </a>
   </main>
   <!-- FOOTER -->
   <footer>
-    <div class="container">
       <div class="footer1">
         <nav class="navbar">
           <ul>
@@ -114,7 +118,6 @@
         <iframe class="mapa"
           src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14378.697472308775!2d-100.2455943!3d25.7152034!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8662eadb2e58a111%3A0x1a99a2e045db0775!2sBixler%20Studio!5e0!3m2!1ses-419!2smx!4v1714696595974!5m2!1ses-419!2smx"
           referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </section>
       </div>
     </div>
     <p class="copyright"> Bixler Nails Studio 2024. Todos los derechos reservados.</p>

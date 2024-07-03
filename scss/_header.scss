@@ -13,11 +13,13 @@ header {
 }
 
 .nav-link:hover {
+    transition: 0300ms;
     background-color: $color-red;
-    color: rgba(98.04%, 98.43%, 99.22%);
+    color: $color-transition-nav;
 }
 
 .navbar-brand:hover {
+    transition: 0300ms;
     background-color: $color-red;
-    color: rgba(98.04%, 98.43%, 99.22%);
+    color: $color-transition-nav;
 }

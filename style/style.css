@@ -33,11 +33,13 @@ header {
 }
 
 .nav-link:hover {
+  transition: 300ms;
   background-color: #b22222;
   color: rgb(250, 251, 253);
 }
 
 .navbar-brand:hover {
+  transition: 300ms;
   background-color: #b22222;
   color: rgb(250, 251, 253);
 }
@@ -264,8 +266,7 @@ a {
   column-gap: 10px;
   background-color: rgba(250, 251, 253, 0.6);
 }
-
-.imagenesprueba1 {
+.galeria .imagenesprueba1 {
   border: 3px solid whitesmoke;
   border-radius: 5px;
   padding: 10px;
@@ -355,6 +356,7 @@ footer ul li {
   height: 305px;
   border: 2px solid #b22222;
   justify-content: center;
+  margin-right: 30px;
 }
 
 .nav-link {
@@ -379,6 +381,14 @@ footer ul li {
 }
 .pfooter:hover {
   color: rgb(250, 251, 253);
+}
+
+.whatsappfooter {
+  display: flex;
+  justify-content: right;
+  position: sticky;
+  bottom: 40px;
+  margin-right: 20px;
 }
 
 .copyright {
