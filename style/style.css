@@ -197,7 +197,6 @@ a {
 
 .border {
   border: 2px solid #b22222;
-  padding: 40px;
   border-radius: 10px;
   background-color: rgba(250, 251, 253, 0.6);
 }
@@ -387,8 +386,9 @@ footer ul li {
   display: flex;
   justify-content: right;
   position: sticky;
-  bottom: 40px;
+  bottom: 50px;
   margin-right: 20px;
+  opacity: 0.9;
 }
 
 .copyright {
@@ -459,6 +459,11 @@ footer ul li {
   }
   .galeria {
     grid-template-columns: auto;
+  }
+  .logowsp {
+    height: 70px;
+    width: 70px;
+    margin-bottom: 50px;
   }
 }
 
