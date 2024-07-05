@@ -284,6 +284,8 @@ a {
 .titulonosotros {
   color: #b22222;
   font-weight: bold;
+  text-decoration: underline;
+  margin-top: 20px;
 }
 
 .pnosotros {
