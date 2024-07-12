@@ -160,19 +160,16 @@ a {
 }
 
 .disenosimg {
-  float: center;
   width: 100px;
   height: 100px;
 }
 
 .esteticaimg {
-  float: center;
   width: 100px;
   height: 100px;
 }
 
 .personalimg {
-  float: center;
   width: 100px;
   height: 100px;
 }
@@ -391,6 +388,7 @@ footer ul li {
   bottom: 50px;
   margin-right: 20px;
   opacity: 0.9;
+  overflow: hidden;
 }
 
 .copyright {
